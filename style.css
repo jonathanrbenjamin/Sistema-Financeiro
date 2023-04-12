@@ -117,3 +117,27 @@ i {
     width: 80px;
     text-align: center;
 }
+
+@media screen and (max-width: 320px) {
+
+    .divTable {
+        width: 80%;
+
+    }
+
+    .newItem {
+        width: 80%;
+    }
+
+}
+
+@media screen and (max-width: 425px) {
+    .newItem {
+        width: 60%;
+    }
+
+    table {
+        margin-left: 20px;
+    }
+
+}
