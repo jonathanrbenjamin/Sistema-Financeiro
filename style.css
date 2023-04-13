@@ -4,57 +4,55 @@
     box-sizing: border-box;
     font-family: 'poppins', sans-serif;
     outline: none;
-}
-
-body {
+  }
+  
+  body {
     height: 100vh;
     display: flex;
     justify-content: center;
-}
-
-main {
+  }
+  
+  main {
     max-width: 550px;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.resume {
+  }
+  
+  .resume {
     display: flex;
     padding: 10px 0;
     gap: 40px;
     width: 100%;
     justify-content: center;
     flex-wrap: wrap;
-}
-
-.resume>div {
+  }
+  
+  .resume > div {
     display: flex;
     flex-direction: column;
     box-shadow: 0px 0px 5px #ccc;
     border-radius: 10px;
     padding: 10px;
     width: 150px;
-}
-
-.newItem {
+  }
+  
+  .newItem {
     display: flex;
     gap: 10px;
     align-items: end;
     width: 100%;
     justify-content: center;
     flex-wrap: wrap;
-}
-
-.divDesc,
-.divType,
-.divAmount {
+  }
+  
+  .divDesc, .divType, .divAmount {
     display: flex;
     flex-direction: column;
-}
-
-.newItem>button {
+  }
+  
+  .newItem > button {
     background-color: #2C73D2;
     color: white;
     border: none;
@@ -62,61 +60,61 @@ main {
     border-radius: 5px;
     cursor: pointer;
     height: 34px;
-}
-
-input,
-select {
+  }
+  
+  input, select {
     padding: 5px;
-}
-
-.divTable {
+  }
+  
+  .divTable {
     width: 100%;
     display: flex;
     justify-content: center;
-}
-
-table {
+  }
+  
+  table {
     width: 98%;
     padding: 20px 0;
     border-radius: 5px;
-}
-
-th {
+  }
+  
+  th {
     text-align: start;
     border-bottom: inset;
     padding-bottom: 5px;
-}
-
-i {
+  }
+  
+  i {
     font-size: 25px;
-}
-
-.bxs-chevron-up-circle {
+  }
+  
+  .bxs-chevron-up-circle {
     color: #00C9A7;
-}
-
-.bxs-chevron-up-circle {
+  }
+  
+  .bxs-chevron-down-circle {
     color: #D83121;
-}
-
-.coLumnAction {
+  }
+  
+  .columnAction {
     width: 40px;
     text-align: center;
-}
-
-.coLumnAction>button {
-    background-color: transparent;
+  }
+  
+  .columnAction > button {
+    background: transparent;
     border: none;
-}
-
-.coLumnAmount {
+  }
+  
+  .columnAmount {
     width: 30%;
-}
-
-.coLumnType {
+  }
+  
+  .columnType {
     width: 80px;
     text-align: center;
-}
+  }
+  
 
 @media screen and (max-width: 320px) {
 
